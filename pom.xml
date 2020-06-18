@@ -14,7 +14,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.hch.simpleboot</groupId>
-    <artifactId>myboot</artifactId>
+    <artifactId>myboot_use</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>myboot</name>
     <description>Demo project for Spring Boot</description>
