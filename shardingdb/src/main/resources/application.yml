@@ -3,3 +3,19 @@ server:
 spring:
   application:
     name: shardingdb
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  mapper-locations: com/hch/shardingdb/mapper/*
+  global-config:
+    id-type: 1 #0： auto数据库自增id 1：用户输入id 2：id_worker 全局唯一id
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true #查询结果为null的字段不映射到字段中
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

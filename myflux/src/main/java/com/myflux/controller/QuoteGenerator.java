@@ -43,7 +43,7 @@ public class QuoteGenerator {
                 .onBackpressureDrop()       //in case of back-pressure, drop events
                 .map(this::generatorQuotes) // For each tick, generate a list of quotes
                 .flatMapIterable(quotes -> quotes) // flat map
-                .log("io.spring.workshop.stockquotes");
+                .log("com.myflux");
     }
 
     private List<Quote> generatorQuotes(long interval) {

@@ -6,6 +6,9 @@
     <modules>
         <module>shardingdb</module>
         <module>simpleboot</module>
+        <module>nacostest</module>
+        <module>myflux</module>
+        <module>redis_temp</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
