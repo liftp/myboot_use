@@ -1,4 +1,4 @@
-package com.hch.simpleboot.controller;
+package com.hch.simpleboot.es.controller;
 
 import com.hch.simpleboot.html2pdf.StudentAnswerDetailToPdfUtil;
 import org.springframework.web.bind.annotation.GetMapping;

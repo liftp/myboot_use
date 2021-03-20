@@ -9,6 +9,7 @@
         <module>nacostest</module>
         <module>myflux</module>
         <module>redis_temp</module>
+        <module>test_es</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
