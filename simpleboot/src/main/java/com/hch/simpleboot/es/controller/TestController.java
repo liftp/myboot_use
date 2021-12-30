@@ -1,6 +1,6 @@
 package com.hch.simpleboot.es.controller;
 
-import com.hch.simpleboot.html2pdf.StudentAnswerDetailToPdfUtil;
+import com.hch.simpleboot.html2pdf.ITextToPdfUtil;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
