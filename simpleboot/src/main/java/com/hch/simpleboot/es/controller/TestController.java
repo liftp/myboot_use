@@ -16,12 +16,9 @@ public class TestController {
         String DEST = "E:\\javaPro\\sso_test\\doc\\my.pdf";
         String HTML = "test.html";
         Map<String, Object> data = new HashMap<>();
-//        data.put("studentId", "1");
-//        data.put("exam", "1");
-//        data.put("testWays", "exam");
-        String content = StudentAnswerDetailToPdfUtil.htmlRender(data, HTML);
+        String content = ITextToPdfUtil.htmlRender(data, HTML);
         try {
-            StudentAnswerDetailToPdfUtil.createPdf(content, DEST);
+            ITextToPdfUtil.createPdf(content, DEST);
         } catch (Exception e) {
             e.printStackTrace();
         }
